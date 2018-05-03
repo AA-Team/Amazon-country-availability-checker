@@ -1,0 +1,133 @@
+/* Ajax Loader */
+.WooZone-cc-loader {
+	display: inline-block;
+	text-align: center;
+	width: 55px;
+}
+
+.WooZone-cc-loader > span {
+	background-color: #333333;
+	border-radius: 100%;
+	display: inline-block;
+	height: 5px;
+	vertical-align: top;
+	margin-top: 16px;
+	width: 5px;
+
+	-webkit-animation: wcc-bouncedelay 1.4s infinite ease-in-out both;
+	animation: wcc-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.WooZone-cc-loader .WooZone-cc-bounce1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+
+.WooZone-cc-loader .WooZone-cc-bounce2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+
+@-webkit-keyframes wcc-bouncedelay {
+	0%, 80%, 100% { -webkit-transform: scale(0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes wcc-bouncedelay {
+	0%, 80%, 100% { 
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	} 40% { 
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+
+/* Title */
+.WooZone-country-check-title {
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-size: bold;
+	line-height: 38px;
+	padding-left: 1px;
+}
+
+/* Country Box */
+.WooZone-country-check {
+	border: 1px solid #e0dede;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 19px 29px;
+}
+
+/* Country lists */
+.WooZone-country-check li {
+	color: #747474;
+	display: inline-block;
+	font-size: 15px;
+	line-height: 35px;
+	list-style-type: none;
+	min-width: 280px;
+}
+
+/* Availability colors */
+.WooZone-status-available {
+	color: #31b93e;
+}
+
+.WooZone-status-unavailable {
+	color: #f12525;
+}
+
+/* Country Flags */
+.WooZone-country-check li .WooZone-cc_domain:before {
+	display: inline-block;
+	margin-right: 11px;
+	width: 16px;
+}
+
+.WooZone-country-check li .WooZone-cc_domain.com:before {
+	content: url(img/us.png);
+}
+
+.WooZone-country-check li .WooZone-cc_domain.co-uk:before {
+	content: url(img/uk.png);
+}
+
+.WooZone-country-check li .WooZone-cc_domain.de:before {
+	content: url(img/de.png);
+}
+
+.WooZone-country-check li .WooZone-cc_domain.fr:before {
+	content: url(img/fr.png);
+}
+
+.WooZone-country-check li .WooZone-cc_domain.co-jp:before {
+	content: url(img/jp.png);
+}
+
+.WooZone-country-check li .WooZone-cc_domain.ca:before {
+	content: url(img/ca.png);
+}
+
+.WooZone-country-check li .WooZone-cc_domain.in:before {
+	content: url(img/in.png);
+}
+
+.WooZone-country-check li .WooZone-cc_domain.it:before {
+	content: url(img/it.png);
+}
+
+.WooZone-country-check li .WooZone-cc_domain.es:before {
+	content: url(img/es.png);
+}
+
+.WooZone-country-check li .WooZone-cc_domain.com-mx:before {
+	content: url(img/mx.png);
+}
+
+.WooZone-country-check li .WooZone-cc_domain.com-br:before {
+	content: url(img/br.png);
+}
